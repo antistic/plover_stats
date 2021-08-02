@@ -1,0 +1,5 @@
+exclude plover_stats/*_rc.py
+exclude plover_stats/*_ui.py
+include plover_stats/*.ui
+
+recursive-include plover_stats/resources *

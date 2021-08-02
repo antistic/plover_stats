@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="plover_stats">
+    <file>stats.svg</file>
+  </qresource>
+</RCC>
