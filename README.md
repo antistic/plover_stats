@@ -2,8 +2,7 @@
 
 Plover stats reads your `strokes.log` and give you some stats.
 
-<img src="assets/overview.png" alt="overview screenshot" width="400">
-<img src="assets/by_day.png" alt="stats by day screenshot" width="400">
+<img src="assets/overview.png" alt="overview screenshot" width="400"> <img src="assets/by_day.png" alt="stats by day screenshot" width="400">
 
 ### Table of Contents
 - [Installation](#installation)
