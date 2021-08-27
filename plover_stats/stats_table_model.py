@@ -41,7 +41,7 @@ class StatsTableModel(QtCore.QAbstractTableModel):
 
     def set_items_(self, items: List[Any]) -> None:
         self.items = items
-        self.sort(0, QtCore.Qt.DescendingOrder)
+        self.sort(0, QtCore.Qt.AscendingOrder)
 
     def refresh_(self, item_index: int) -> None:
         self.dataChanged.emit(
