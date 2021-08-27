@@ -92,6 +92,9 @@ def load_cache(paths: Iterable[Path]) -> Tuple[Dict, List]:
                 stats[path] = path_cache
             else:
                 paths_to_do.append(path)
+        else:
+            print("not in cache, adding to todo")
+            paths_to_do.append(path)
 
     return stats, paths_to_do
 
